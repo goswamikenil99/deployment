@@ -1,5 +1,5 @@
-export const HOST = 'https://deployment-back-zaek.onrender.com';
-export const SOCKET_HOST = 'https://deployment-back-zaek.onrender.com';
+export const HOST = import.meta.env.VITE_SERVER_URL;
+export const SOCKET_HOST = import.meta.env.VITE_SERVER_URL;
 
 export const AUTH_ROUTES = "api/auth";
 export const LOGIN_ROUTE = `${AUTH_ROUTES}/login`;

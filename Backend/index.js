@@ -17,7 +17,7 @@ const databaseURL = process.env.DATABSE_URL;
 
 app.use(
   cors({
-    origin: [process.env.ORIGIN],
+    origin: ['https://deployment-front-m5v6.onrender.com'],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
   })
